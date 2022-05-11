@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KryptoBlack</title>
+
+    <!-- Styles -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/icon" href="/assets/favicon.936a0ff5.ico" />
+
+    <!-- Title -->
+    <title>Pratik Thakare | Portfolio</title>
+    <script type="module" crossorigin src="/assets/index.32c08700.js"></script>
+    <link rel="stylesheet" href="/assets/index.23258d4d.css">
   </head>
-  <body>
-    <h1>Work In Progress . . .</h1>
+
+  <!-- Body -->
+  <body class="text-center">
+    <div id="page">
+      <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <h2>Coming Soon...</h2>
+            <p class="lead">Until then you can find me at</p>
+          </div>
+
+          <!-- Find me at (Hyperlinks) -->
+          <div class="hyperlink-container">
+            <a
+              class="logo"
+              href="https://github.com/KryptoBlack/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><img src="data:image/png;base64,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" alt="github"
+            /></a>
+            <a
+              class="logo"
+              href="https://twitter.com/t3_pat/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><img src="data:image/png;base64,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" alt="twitter"
+            /></a>
+            <a
+              class="logo"
+              href="https://linkedin.com/in/t3-pat/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><img src="data:image/png;base64,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" alt="linkedin"
+            /></a>
+            <!-- <a
+              class="logo"
+              href="mailto:{email}"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><img src="/assets/icons/mail-outline.png" alt="mail"
+            /></a> -->
+            <a
+              class="logo"
+              href="/assets/docs/pratik-thakare-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAADVUlEQVRoge3bS4gcRRzH8c+4CUh8HgxoAiqIL7wIOQjRKJ48iCCCDwQxBEEMelBBBCUohERBQlAUzMEHKBgDCupNifg4rs+D8RExUWTFB4pCUNfseqhep93MTPVU9ez0DP2Fhp7qf1X9f9td/65/VS8t000ncv0BnLkSjtTEe3ghp4FZLE7Q8XRM0KqKwn/G4Yq24+BCrKliWFXwK7g92Z3RM4sNVQyPG7EjjaMVPO3UIbiDS3Ez1tXQ3kipQ/BuvI8X8TG21dDmyMgV3MHm0u+1eBjrM9sdGbmCV+n9/ovN4GAfFsQnEwt4OdPP/8gVPC9MSsr8hbkKdTep9ofp4PIh/epL1YlHP9bgtGVlq3EqfonUvUIQEhO9iHeSvOtBruAj2I6HSmW7xMXCF8WxotQRpXfhQHF+CI/W0ObIqEPwH/isOD/o2DHdKHIFz+BGXFX8vgy3CuM4xsRF6duEO/oSTizKjsdz+AZ3GhyQJipK34XHB1xfjyeEaL29j81ERekZ7KlgtzDg2liidKrg3bV6sYK06eG00wqedlrB004ruCIP4m/5WyNzuCDd/eFJnXhsVC1BiHE6zsfnme3cIixGRDO1VMGbcbV80XN4PbMNuvl4lFTBP+LZxLo5XOfYJaUyB4Qt02SWtkuj25ArRGz7NupnG6UnhD1CHr10fFC1YuoYvgH3JNSfFxb99iX2m02q4DtwSWLdrSZQ8L3YYvjX0jyeSeyzFlIFf1gcE8ekBq1kWsHTTuoY3iAErdzNuB+wE38uK78P5/SwPyvS3ia9Z1v7sbeKQ/2mlm+r7+u5m3r0e56Q+VSdQg6acn6Ck5cMU+/QU8K2Sh3Z0v4e5V/iWrxZ9ANf47fi/Ntl9uVsaR3OKM6/F7K636s6NO7k4XocLXyYxQkR+7OFYbIoiLx42A7HLRju130839D/qTwFnxZ2/+CalM6aIBieNDgFXI23SjZbUztqiuAZvKYr6O7StQ6eL13bkdNRUwTDSfhI8OeosPpB2I5dErtX5tyiSYIJ+87fCT4dwWO6Yt/VjejJNE0wXIRf/f9de1D4CjCbJv0LwCMlv64UPoBbxE84tw6xTRO8XPQW4bHeOIyg2PcVsWXRcfCqcFcJd/arMfrS0jJu/gVRH1/9kpAqBQAAAABJRU5ErkJggg==" alt="resume"
+            /></a>
+          </div>
+        </header>
+
+        <main role="main" class="inner cover"></main>
+
+        <footer class="mastfoot mt-auto"></footer>
+      </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
   </body>
+
+  <!-- JS Script -->
+  
 </html>
